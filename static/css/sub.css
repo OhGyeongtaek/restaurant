@@ -1,0 +1,207 @@
+.sub{
+	min-width:1000px;
+	height:175px;
+}
+.sub_back{
+	width:100%;
+	z-index:-1;
+	height:255px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:url('/static/img/sub_back.png') 50% 50%;
+}
+body{
+	background:#f4f4f4;
+}
+.content{
+	width:1000px;
+	margin:0 auto;
+	min-height:500px;
+	box-shadow:2px 2px 2px #999;
+	background:#fff;
+	padding:50px;
+}
+.content > aside{
+	text-align:right;
+	font-family:'Corbel';
+	border-bottom:1px solid #ccc;
+	padding-bottom:10px;
+	margin-bottom:10px;
+} 
+.content > aside > *{
+	font-size:0.85em;
+}
+.content > header ul{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	padding-bottom:20px;
+}
+.content > header ul li a{
+	display:inline-block;
+	border:1px solid #ccc;
+	padding:10px;
+	min-width:150px;
+	text-align:center;
+	font-size:0.85em;
+}
+
+.content > header ul li a.active,
+.content > header ul li a:hover{
+	background:#eb3b4b;
+	color:#fff;
+}
+.patten-box{
+	background:url('/static/img/intro_patten.png');
+}
+.intro-title{
+	padding:20px 0;
+	text-align:center;
+	border-bottom:1px solid #ccc;
+}
+.intro .text{
+	width:800px;
+	margin:0 auto;
+	padding-top:20px;
+}
+.intro .text h2{
+	text-align:center;
+	font-size:2em;
+	padding:20px 0;
+	border-bottom:1px solid #ccc;
+}
+.intro .text h4{
+	padding:20px 0;
+	font-size:1.2em;
+}
+.intro .text p{
+	font-size:0.85em;
+	color:#777;
+	line-height:20px;
+}
+.find img{
+	width:100%;
+}
+.find p{
+	padding:9px 0;
+}
+.menu .menu-list{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+
+}
+.menu .menu-list figure{
+	width:280px;
+	height:270px;
+	border:1px solid #ccc;
+	margin-bottom:30px;
+	text-align:center;
+	padding:10px;
+	box-shadow:2px 2px 3px #999;
+}
+.menu .menu-list figure figcaption{
+	margin-top:10px;
+	padding-top:10px;
+	font-size:0.85em;
+	border-top:1px solid #ccc;
+}
+.menu .menu-list figure img{
+	height:200px;
+	width:96%;
+}
+.reserve .ui-datepicker,
+.admin .ui-datepicker{
+	width:100%;
+	background:#fff;
+	border-radius:0;
+	border:1px solid #ccc;
+}
+.reserve .ui-datepicker .ui-datepicker-header,
+.admin .ui-datepicker .ui-datepicker-header{
+	background:#fff;
+	border-radius:0;
+	border:none;
+	border-bottom:1px solid #ccc;
+}
+.reserve .ui-datepicker .ui-datepicker-prev,
+.reserve .ui-datepicker .ui-datepicker-next,
+.admin .ui-datepicker .ui-datepicker-prev,
+.admin .ui-datepicker .ui-datepicker-next{
+	background:#999;
+}
+.reserve .ui-datepicker table td span,
+.reserve .ui-datepicker table td a,
+.admin .ui-datepicker table td span,
+.admin .ui-datepicker table td a{
+	height:100px;
+	background:none;
+}
+.play-box table{
+	border-top:1px solid #ccc;
+}
+.play-box table tr th{
+	width:100px;
+	text-align:left;
+}
+.play-box table tr th,
+.play-box table tr td{
+	border-bottom:1px solid #ccc;
+	padding:10px 0;
+	font-size:0.85em;
+	padding-left:10px;
+}
+.play-box table tr td input{
+	border:1px solid #ccc;
+	padding:2px;
+}
+.reserve-list{
+	width:200px;
+	display:inline-block;
+}
+.reserve-data{
+	display:inline-block;
+	background:#fff;
+	min-width:150px;
+	padding:10px;
+	text-align:center;
+	border:1px solid #ccc;
+	font-size:0.85em;
+	margin:10px 0;
+}
+.table-view{
+	vertical-align:top;
+	display:inline-block;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+}
+.table-view li{
+	width:300px;
+	padding:15px;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	font-size:0.85em;
+	height:auto;
+}
+.table-view li strong{
+	padding:10px;
+	display:inline-block;
+	vertical-align:top;
+}
+.table-view li > div{
+	display:inline-block;
+	width:200px;
+	min-height:50px;
+	text-align:center;
+	background:#ccc;
+}
+.reserve-list{
+	width:250px;
+	padding:10px;
+	border:1px solid #ccc;
+	text-align:center;
+}
+.admin canvas{
+	border:1px solid #ccc;
+}

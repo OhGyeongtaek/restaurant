@@ -1,0 +1,159 @@
+/*setting css*/
+*{ margin:0; padding:0; font-family:'나눔고딕'; box-sizing:border-box; color:#666; }
+a{ text-decoration:none; color:#666; }
+ul li{ list-style:none; }
+table{ width:100%; border-collapse:collapse; border-spacing:0; }
+
+#wrap-body{
+	min-width:1000px;
+	position:relative;
+	overflow:hidden;
+}
+
+#wrap-body > header{ 
+	min-width:1000px;
+	height:80px;
+	background:url('/static/img/header_back.png');
+}
+
+#header{
+	width:1000px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+
+#header > section > div{
+	text-align:right;
+}
+
+#header > section > div a,
+#header > section > div span{
+	display:inline-block;
+	margin:10px 20px;
+	color:#fff;
+	font-size:0.85em;
+	margin-right:0;
+}
+
+#header > section > nav > ul{
+	padding-top:5px;
+	display:flex;
+	width:650px;
+	justify-content:space-between;
+}
+
+#header > section > nav > ul a{
+	color:#fff;
+}
+
+#header > section > nav > ul a:hover{
+	font-weight:bold;
+}
+footer{
+	background:#666;
+	min-width:1000px;
+	height:50px;
+}
+
+#footer{
+	width:1000px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	padding-top:10px;
+	align-items:center;
+}
+
+#footer p{
+	color:#fff;
+	font-size:0.75em;
+}
+
+.ui-dialog-titlebar{
+	background:none;
+	border-radius:0;
+	border:none;
+	border-bottom:1px solid #ccc;
+	color:#444;
+}
+.ui-dialog{
+	background:#fff;
+	border-radius:0;
+}
+.login dl{
+	display:flex;
+	padding:10px 0;
+}
+.login dl dt{
+	width:60px;
+	font-size:0.85em;
+	font-weight:bold;
+	padding-top:3px;
+}
+
+.login dl dd input{
+	border:1px solid #ccc;
+	padding:2px;
+}
+
+.login [type=submit]{
+	background:#eb3b4b;
+	color:#fff;
+	font-weight:bold;
+	width:100%;
+	padding:10px 0;
+	border:none;
+	font-size:0.85em;
+
+}
+
+.join > form > p{
+	text-align:right;
+	font-size:0.75em;
+	padding:10px 0;
+	color:#666;
+	border-bottom:2px solid #ccc;
+}
+
+.join tr th,
+.join tr td{
+	padding:5px 0;
+	border-bottom:1px solid #ccc;
+}
+.join tr td p{
+	font-size:0.75em;
+	padding:10px 0;
+}
+
+.join tr th{
+	width:120px;
+	text-align:left;
+	padding-left:10px;
+	font-size:0.85em;
+}
+.join tr td input{
+	width:150px;
+	padding:2px;
+	border:1px solid #ccc;
+}
+.move-box{
+	padding:20px 0;
+	text-align:center;
+}
+.move-box [type=submit]{
+	color:#fff;
+	font-weight:bold;
+	border:none;
+	background:#eb3b4b;
+	font-size:0.85em;
+	padding:7px 20px;
+}
+.move-box [type=button]{
+	background:#f9f9f9;
+	border:1px solid #ccc;
+	font-size:0.85em;
+	padding:7px 20px;
+	font-weight:bold;
+	color:#666;
+}

@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{QUERY_STRING} (.*)
+RewriteRule ^(view|action)(?:/([\w]*)|)(?:/([\w]*)|)(?:/?(.*)|)$ index.php?%1&mode=$1&controller=$2&method=$3&$4
